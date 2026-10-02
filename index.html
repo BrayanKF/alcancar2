@@ -1,0 +1,1039 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ALCANÇAR – Clínica de Fisioterapia Integrada</title>
+<meta name="description" content="Fisioterapia, psicologia, nutrição, atividades na água e estética em Almenara e Jacinto, MG. Atendimento humanizado para toda a família.">
+<link rel="icon" href="/img/logo.jpeg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600;700&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+*,*::before,*::after{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%;scroll-behavior:smooth}
+body{margin:0;max-width:100%;overflow-x:clip;font-family:'Poppins',system-ui,sans-serif;font-size:18px;line-height:1.6;color:#2F3E36;background:#F5EFE3}
+img,svg,video,iframe{max-width:100%;height:auto;display:block}
+[hidden]{display:none!important}
+:root{--salvia:#8FB5A0;--verde-profundo:#4F6B5A;--verde-escuro:#3E5A4A;--creme:#EBD9A9;--bege:#F5EFE3;--branco:#FFFFFF;--texto:#2F3E36;--pessego:#E8C4A0;--barra-h:72px}
+.header{position:sticky;top:0;z-index:800;height:68px;background:rgba(245,239,227,.95);backdrop-filter:blur(12px)}
+.header-logo{width:48px;height:48px;border-radius:50%;object-fit:cover}
+.loader{position:fixed;inset:0;z-index:9999;background:#F5EFE3;display:flex;align-items:center;justify-content:center}
+</style>
+<link rel="stylesheet" href="/style.css">
+</head>
+<body>
+
+<div id="loader" class="loader">
+  <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <circle cx="24" cy="24" r="20" stroke="#8FB5A0" stroke-width="4" stroke-linecap="round" stroke-dasharray="31.4 31.4">
+      <animateTransform attributeName="transform" type="rotate" from="0 24 24" to="360 24 24" dur="1s" repeatCount="indefinite"/>
+    </circle>
+  </svg>
+</div>
+
+<header class="header" id="header">
+  <div class="header-inner">
+    <a href="#inicio" class="header-logo-link" aria-label="ALCANÇAR - Ir para o início">
+      <img src="/img/logo.jpeg" alt="ALCANÇAR Logo" class="header-logo" width="48" height="48">
+    </a>
+
+    <nav class="header-nav" aria-label="Menu principal">
+      <a href="#inicio">Início</a>
+      <a href="#sobre">Sobre</a>
+      <a href="#servicos">Serviços</a>
+      <a href="#convenio">Convênio</a>
+      <a href="#estetica">Estética</a>
+      <a href="#equipe">Equipe</a>
+      <a href="#unidades">Unidades</a>
+      <a href="#contato">Contato</a>
+    </nav>
+
+    <div class="header-actions">
+      <button class="btn-font-size" id="btn-font-size" aria-label="Aumentar tamanho da fonte" title="A+">A+</button>
+      <button class="btn-cta-header" data-agendar>Agende sua consulta <span aria-hidden="true">→</span></button>
+      <button class="btn-hamburger" id="btn-hamburger" aria-label="Abrir menu" aria-expanded="false" aria-controls="mobile-menu">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+          <line x1="3" y1="6" x2="21" y2="6"/>
+          <line x1="3" y1="12" x2="21" y2="12"/>
+          <line x1="3" y1="18" x2="21" y2="18"/>
+        </svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+<div class="mobile-menu" id="mobile-menu" hidden>
+  <button class="mobile-menu-close" id="mobile-menu-close" aria-label="Fechar menu">
+    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+      <line x1="18" y1="6" x2="6" y2="18"/>
+      <line x1="6" y1="6" x2="18" y2="18"/>
+    </svg>
+  </button>
+  <nav aria-label="Menu mobile">
+    <a href="#inicio" class="mobile-menu-link">Início</a>
+    <a href="#sobre" class="mobile-menu-link">Sobre</a>
+    <a href="#servicos" class="mobile-menu-link">Serviços</a>
+    <a href="#convenio" class="mobile-menu-link">Convênio</a>
+    <a href="#estetica" class="mobile-menu-link">Estética</a>
+    <a href="#equipe" class="mobile-menu-link">Equipe</a>
+    <a href="#unidades" class="mobile-menu-link">Unidades</a>
+    <a href="#contato" class="mobile-menu-link">Contato</a>
+  </nav>
+</div>
+
+<main>
+
+<section class="hero" id="inicio">
+  <div class="hero-bg">
+    <svg class="hero-shape" viewBox="0 0 800 600" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+      <ellipse cx="200" cy="150" rx="180" ry="200" fill="#8FB5A0" opacity="0.15"/>
+      <circle cx="650" cy="400" r="150" fill="#EBD9A9" opacity="0.2"/>
+      <path d="M100 300 Q200 250 300 300 T500 300" stroke="#8FB5A0" stroke-width="2" opacity="0.3" fill="none"/>
+    </svg>
+  </div>
+  <div class="container">
+    <div class="hero-content">
+      <p class="hero-label">Clínica de Fisioterapia Integrada • Almenara e Jacinto</p>
+      <h1 class="hero-title">Cuidar do seu <span class="hero-word" id="hero-word">movimento</span></h1>
+      <p class="hero-subtitle">Fisioterapia, psicologia, nutrição, atividades na água e estética em um só lugar. Atendimento humanizado para você e para toda a sua família.</p>
+      <div class="hero-buttons">
+        <button class="btn btn-primary" data-agendar>Agende a sua consulta aqui <span aria-hidden="true">→</span></button>
+        <a href="#servicos" class="btn btn-secondary">Ver nossos serviços</a>
+      </div>
+      <p class="hero-microtext">Rápido, seguro e sem compromisso. Atendemos Unimed Três Vales.</p>
+    </div>
+    <div class="hero-features">
+      <div class="hero-feature">
+        <svg width="32" height="32" viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <path d="M16 21c3.3 0 6-2.7 6-6s-2.7-6-6-6-6 2.7-6 6 2.7 6 6 6z"/>
+          <path d="M16 3v2m0 22v2m13-13h-2M5 16H3m21.4-9.4l-1.4 1.4M9 23l-1.4 1.4m0-17.8L9 8m12.6 15l1.4 1.4"/>
+        </svg>
+        <span>Atendimento humanizado</span>
+      </div>
+      <div class="hero-feature">
+        <svg width="32" height="32" viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <rect x="3" y="7" width="26" height="18" rx="3"/>
+          <path d="M8 7V5c0-1.1.9-2 2-2h12c1.1 0 2 .9 2 2v2"/>
+        </svg>
+        <span>Vários especialistas no mesmo lugar</span>
+      </div>
+      <div class="hero-feature">
+        <svg width="32" height="32" viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <path d="M16 3l4 8 9 1-6.5 6.5L24 28l-8-4-8 4 1.5-9.5L3 12l9-1z"/>
+        </svg>
+        <span>2 unidades: Almenara e Jacinto</span>
+      </div>
+      <div class="hero-feature">
+        <svg width="32" height="32" viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <circle cx="16" cy="16" r="10"/>
+          <path d="M16 8v8l4 4"/>
+        </svg>
+        <span>Atendemos Unimed Três Vales</span>
+      </div>
+      <div class="hero-feature hero-feature-full">
+        <svg width="32" height="32" viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <rect x="5" y="4" width="22" height="24" rx="2"/>
+          <line x1="11" y1="11" x2="21" y2="11"/>
+          <line x1="11" y1="17" x2="21" y2="17"/>
+          <line x1="11" y1="23" x2="17" y2="23"/>
+        </svg>
+        <span>Segunda a sexta, das 7h às 21h</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="sobre section" id="sobre">
+  <div class="container">
+    <h2 class="section-title">Uma clínica para cuidar de você e de toda a sua família</h2>
+    <p class="section-intro">A Alcançar é uma clínica de fisioterapia integrada. Isso quer dizer que aqui vários profissionais trabalham juntos para cuidar do seu corpo, da sua mente e da sua rotina. Nosso trabalho é cuidar do seu bem-estar, com atenção, carinho e um tratamento pensado para cada pessoa.</p>
+
+    <div class="sobre-grid">
+      <div class="sobre-pillars">
+        <div class="pillar">
+          <svg width="48" height="48" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true">
+            <path d="M24 32c6 0 11-5 11-11s-5-11-11-11-11 5-11 11 5 11 11 11z"/>
+            <path d="M24 42c9.9 0 18-8.1 18-18S33.9 6 24 6 6 14.1 6 24s8.1 18 18 18z"/>
+          </svg>
+          <h3>Cuidar</h3>
+          <p>Olhamos para você por inteiro, não só para a dor.</p>
+        </div>
+        <div class="pillar">
+          <svg width="48" height="48" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true">
+            <path d="M24 10c-7.7 0-14 6.3-14 14s6.3 14 14 14 14-6.3 14-14-6.3-14-14-14z"/>
+            <path d="M18 24h12M24 18v12"/>
+          </svg>
+          <h3>Acolher</h3>
+          <p>Aqui você é ouvido, sem pressa e sem julgamento.</p>
+        </div>
+        <div class="pillar">
+          <svg width="48" height="48" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true">
+            <path d="M12 24l6 6 12-12"/>
+            <circle cx="24" cy="24" r="18"/>
+          </svg>
+          <h3>Transformar</h3>
+          <p>Nosso objetivo é ajudar você a recuperar movimento, autonomia e qualidade de vida.</p>
+        </div>
+      </div>
+
+      <div class="sobre-image">
+        <!-- TROCAR: /img/sobre.jpg -->
+        <div class="placeholder-image" style="background:linear-gradient(135deg, #8FB5A0, #EBD9A9); border-radius:32px; min-height:260px;"></div>
+      </div>
+    </div>
+
+    <div class="counters">
+      <div class="counter">
+        <span class="counter-value" data-target="2">2</span>
+        <span class="counter-label">unidades</span>
+      </div>
+      <div class="counter">
+        <span class="counter-value">7h às 21h</span>
+        <span class="counter-label">de atendimento</span>
+      </div>
+      <div class="counter">
+        <span class="counter-value" data-target="5">5</span>
+        <span class="counter-label">áreas de cuidado</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="guided-tool section" id="ferramenta">
+  <div class="container">
+    <h2 class="section-title">Como podemos te ajudar?</h2>
+    <p class="section-subtitle">Responda 2 perguntas rápidas e descubra o atendimento ideal para você.</p>
+
+    <div class="tool-content">
+      <div class="tool-progress" id="tool-progress">Pergunta 1 de 2</div>
+
+      <div class="tool-question" id="tool-q1">
+        <h3>Para quem é o atendimento?</h3>
+        <div class="tool-options">
+          <button class="tool-option" data-tool-answer="mim">Para mim</button>
+          <button class="tool-option" data-tool-answer="filho">Para meu filho ou minha filha</button>
+          <button class="tool-option" data-tool-answer="idoso">Para uma pessoa idosa</button>
+          <button class="tool-option" data-tool-answer="gestante">Para gestante ou pós-parto</button>
+        </div>
+      </div>
+
+      <div class="tool-question" id="tool-q2" hidden>
+        <h3>O que você está sentindo ou buscando?</h3>
+        <div class="tool-options">
+          <button class="tool-option" data-tool-answer="dor">Dor no corpo ou na coluna</button>
+          <button class="tool-option" data-tool-answer="recuperacao">Recuperação de cirurgia ou lesão</button>
+          <button class="tool-option" data-tool-answer="desenvolvimento">Desenvolvimento e aprendizado da criança</button>
+          <button class="tool-option" data-tool-answer="emocional">Emocional e comportamento</button>
+          <button class="tool-option" data-tool-answer="nutricao">Alimentação e nutrição</button>
+          <button class="tool-option" data-tool-answer="estetica">Estética e cuidado com a pele</button>
+          <button class="tool-option" data-tool-answer="atividade">Atividade física e postura</button>
+        </div>
+      </div>
+
+      <div class="tool-result" id="tool-result" hidden>
+        <h3>Indicamos para você:</h3>
+        <p class="tool-result-service" id="tool-result-service"></p>
+        <p class="tool-result-note">Um profissional da Alcançar avalia o seu caso e confirma o melhor tratamento.</p>
+        <button class="btn btn-primary" data-agendar id="tool-result-btn">Agendar esse atendimento</button>
+        <button class="btn btn-secondary" id="tool-restart">Refazer</button>
+      </div>
+
+      <div class="tool-actions" id="tool-actions">
+        <button class="btn btn-secondary" id="tool-back" hidden>Voltar</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="body-map section" id="mapa-corpo">
+  <div class="container">
+    <h2 class="section-title">Onde você sente dor?</h2>
+    <p class="section-subtitle">Toque na parte do corpo e veja como podemos ajudar.</p>
+
+    <div class="body-map-content">
+      <svg class="body-silhouette" viewBox="0 0 200 400" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Silhueta do corpo humano">
+        <g class="body-part" data-body-part="pescoco" role="button" tabindex="0" aria-label="Pescoço e cabeça">
+          <ellipse cx="100" cy="30" rx="20" ry="25" fill="#8FB5A0" opacity="0.3"/>
+          <rect x="90" y="50" width="20" height="30" rx="5" fill="#8FB5A0" opacity="0.3"/>
+        </g>
+        <g class="body-part" data-body-part="ombro" role="button" tabindex="0" aria-label="Ombro e braço">
+          <ellipse cx="70" cy="100" rx="15" ry="20" fill="#8FB5A0" opacity="0.3"/>
+          <ellipse cx="130" cy="100" rx="15" ry="20" fill="#8FB5A0" opacity="0.3"/>
+          <rect x="55" y="115" width="12" height="60" rx="6" fill="#8FB5A0" opacity="0.3"/>
+          <rect x="133" y="115" width="12" height="60" rx="6" fill="#8FB5A0" opacity="0.3"/>
+        </g>
+        <g class="body-part active" data-body-part="coluna" role="button" tabindex="0" aria-label="Coluna">
+          <rect x="85" y="80" width="30" height="120" rx="8" fill="#8FB5A0" opacity="0.5"/>
+        </g>
+        <g class="body-part" data-body-part="quadril" role="button" tabindex="0" aria-label="Quadril e região pélvica">
+          <ellipse cx="100" cy="210" rx="40" ry="30" fill="#8FB5A0" opacity="0.3"/>
+        </g>
+        <g class="body-part" data-body-part="joelho" role="button" tabindex="0" aria-label="Joelho">
+          <ellipse cx="80" cy="290" rx="12" ry="15" fill="#8FB5A0" opacity="0.3"/>
+          <ellipse cx="120" cy="290" rx="12" ry="15" fill="#8FB5A0" opacity="0.3"/>
+        </g>
+        <g class="body-part" data-body-part="pe" role="button" tabindex="0" aria-label="Pé e tornozelo">
+          <ellipse cx="75" cy="370" rx="18" ry="12" fill="#8FB5A0" opacity="0.3"/>
+          <ellipse cx="125" cy="370" rx="18" ry="12" fill="#8FB5A0" opacity="0.3"/>
+        </g>
+      </svg>
+
+      <div class="body-chips">
+        <button class="body-chip" data-body-part="pescoco">Pescoço e cabeça</button>
+        <button class="body-chip" data-body-part="ombro">Ombro e braço</button>
+        <button class="body-chip active" data-body-part="coluna">Coluna</button>
+        <button class="body-chip" data-body-part="quadril">Quadril e região pélvica</button>
+        <button class="body-chip" data-body-part="joelho">Joelho</button>
+        <button class="body-chip" data-body-part="pe">Pé e tornozelo</button>
+      </div>
+
+      <div class="body-result" id="body-result">
+        <h3 id="body-result-title">Coluna</h3>
+        <p id="body-result-desc">Dor nas costas e má postura.</p>
+        <p id="body-result-treatment"><strong>Indicamos:</strong> <span id="body-result-services">Fisioterapia ortopédica e Pilates</span></p>
+        <button class="btn btn-primary" data-agendar id="body-result-btn">Agendar avaliação</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="services section" id="servicos">
+  <div class="container">
+    <h2 class="section-title">Nossos serviços</h2>
+    <p class="section-subtitle">Escolha uma área e veja o que oferecemos.</p>
+
+    <div class="services-tabs" role="tablist" aria-label="Categorias de serviços">
+      <button class="service-tab active" role="tab" aria-selected="true" data-tab="todos">Todos</button>
+      <button class="service-tab" role="tab" aria-selected="false" data-tab="corpo">Corpo e movimento</button>
+      <button class="service-tab" role="tab" aria-selected="false" data-tab="criancas">Crianças</button>
+      <button class="service-tab" role="tab" aria-selected="false" data-tab="mente">Mente e aprendizado</button>
+      <button class="service-tab" role="tab" aria-selected="false" data-tab="nutricao">Nutrição</button>
+      <button class="service-tab" role="tab" aria-selected="false" data-tab="agua">Na água</button>
+      <button class="service-tab" role="tab" aria-selected="false" data-tab="estetica-tab">Estética</button>
+    </div>
+
+    <div class="services-grid" id="services-grid">
+      <!-- Cards serão gerados via JS mas precisam funcionar sem JS também -->
+      <div class="service-card" data-categories="corpo" data-service-id="1">
+        <button class="service-card-toggle" aria-expanded="false">
+          <svg class="service-icon" width="40" height="40" viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true">
+            <path d="M20 10v20M10 20h20"/>
+          </svg>
+          <h3 class="service-title">Fisioterapia geral</h3>
+          <p class="service-tagline">Movimento sem dor</p>
+        </button>
+        <div class="service-details">
+          <p class="service-description">Avaliação completa e tratamento individual para dores e limitações do dia a dia.</p>
+          <button class="btn btn-primary" data-agendar data-servico="Fisioterapia geral">Agendar</button>
+        </div>
+      </div>
+
+      <div class="service-card" data-categories="corpo" data-service-id="2">
+        <button class="service-card-toggle" aria-expanded="false">
+          <svg class="service-icon" width="40" height="40" viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true">
+            <circle cx="20" cy="12" r="5"/>
+            <path d="M10 35c0-5.5 4.5-10 10-10s10 4.5 10 10"/>
+          </svg>
+          <h3 class="service-title">Fisioterapia adulto</h3>
+          <p class="service-tagline">Volte a fazer o que você gosta</p>
+        </button>
+        <div class="service-details">
+          <p class="service-description">Tratamento para dores, lesões e recuperação depois de cirurgias.</p>
+          <button class="btn btn-primary" data-agendar data-servico="Fisioterapia adulto">Agendar</button>
+        </div>
+      </div>
+
+      <div class="service-card" data-categories="criancas" data-service-id="3">
+        <button class="service-card-toggle" aria-expanded="false">
+          <svg class="service-icon" width="40" height="40" viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true">
+            <circle cx="20" cy="10" r="4"/>
+            <path d="M12 32c0-4.4 3.6-8 8-8s8 3.6 8 8"/>
+          </svg>
+          <h3 class="service-title">Fisioterapia infantil</h3>
+          <p class="service-tagline">Cada passo conta</p>
+        </button>
+        <div class="service-details">
+          <p class="service-description">Acompanha o desenvolvimento motor de bebês e crianças, com atividades que viram brincadeira.</p>
+          <button class="btn btn-primary" data-agendar data-servico="Fisioterapia infantil">Agendar</button>
+        </div>
+      </div>
+
+      <div class="service-card" data-categories="corpo" data-service-id="4">
+        <button class="service-card-toggle" aria-expanded="false">
+          <svg class="service-icon" width="40" height="40" viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true">
+            <path d="M20 8c-6.6 0-12 5.4-12 12v10c0 1.1.9 2 2 2h20c1.1 0 2-.9 2-2V20c0-6.6-5.4-12-12-12z"/>
+          </svg>
+          <h3 class="service-title">Fisioterapia para idosos</h3>
+          <p class="service-tagline">Autonomia e segurança</p>
+        </button>
+        <div class="service-details">
+          <p class="service-description">Exercícios e cuidados para manter força, equilíbrio e independência.</p>
+          <button class="btn btn-primary" data-agendar data-servico="Fisioterapia para idosos">Agendar</button>
+        </div>
+      </div>
+
+      <div class="service-card" data-categories="corpo" data-service-id="5">
+        <button class="service-card-toggle" aria-expanded="false">
+          <svg class="service-icon" width="40" height="40" viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true">
+            <ellipse cx="20" cy="22" rx="10" ry="12"/>
+            <path d="M15 18c0-2.8 2.2-5 5-5s5 2.2 5 5"/>
+          </svg>
+          <h3 class="service-title">Fisioterapia pélvica</h3>
+          <p class="service-tagline">Cuidado íntimo, com respeito</p>
+        </button>
+        <div class="service-details">
+          <p class="service-description">Cuidado com a região pélvica, indicado em várias fases da vida, como gestação e pós-parto.</p>
+          <button class="btn btn-primary" data-agendar data-servico="Fisioterapia pélvica">Agendar</button>
+        </div>
+      </div>
+
+      <div class="service-card" data-categories="corpo" data-service-id="6">
+        <button class="service-card-toggle" aria-expanded="false">
+          <svg class="service-icon" width="40" height="40" viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true">
+            <path d="M10 20h8l4-8 4 16 4-8h8"/>
+          </svg>
+          <h3 class="service-title">Ortopedia</h3>
+          <p class="service-tagline">Ossos, músculos e articulações</p>
+        </button>
+        <div class="service-details">
+          <p class="service-description">Tratamento de dores, lesões e recuperação de cirurgias na coluna, ombro, joelho e outras articulações.</p>
+          <button class="btn btn-primary" data-agendar data-servico="Ortopedia">Agendar</button>
+        </div>
+      </div>
+
+      <div class="service-card" data-categories="corpo" data-service-id="7">
+        <button class="service-card-toggle" aria-expanded="false">
+          <svg class="service-icon" width="40" height="40" viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true">
+            <rect x="10" y="15" width="20" height="15" rx="2"/>
+            <path d="M15 15v-3c0-2.8 2.2-5 5-5s5 2.2 5 5v3"/>
+          </svg>
+          <h3 class="service-title">Pilates</h3>
+          <p class="service-tagline">Melhore sua postura com Pilates</p>
+        </button>
+        <div class="service-details">
+          <p class="service-description">Exercícios que fortalecem o corpo, melhoram a postura e ajudam na flexibilidade.</p>
+          <button class="btn btn-primary" data-agendar data-servico="Pilates">Agendar</button>
+        </div>
+      </div>
+
+      <div class="service-card" data-categories="agua" data-service-id="8">
+        <button class="service-card-toggle" aria-expanded="false">
+          <svg class="service-icon" width="40" height="40" viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true">
+            <path d="M20 5c-3 5-6 10-6 15 0 3.3 2.7 6 6 6s6-2.7 6-6c0-5-3-10-6-15z"/>
+          </svg>
+          <h3 class="service-title">Hidroterapia</h3>
+          <p class="service-tagline">Bem-estar e relaxamento</p>
+        </button>
+        <div class="service-details">
+          <p class="service-description">Exercícios na água, com menos impacto nas articulações.</p>
+          <button class="btn btn-primary" data-agendar data-servico="Hidroterapia">Agendar</button>
+        </div>
+      </div>
+
+      <div class="service-card" data-categories="agua" data-service-id="9">
+        <button class="service-card-toggle" aria-expanded="false">
+          <svg class="service-icon" width="40" height="40" viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true">
+            <circle cx="20" cy="12" r="4"/>
+            <path d="M12 20l8-5 8 5M10 28c2-2 4.5-3 10-3s8 1 10 3"/>
+          </svg>
+          <h3 class="service-title">Hidroginástica</h3>
+          <p class="service-tagline">Exercício leve e divertido</p>
+        </button>
+        <div class="service-details">
+          <p class="service-description">Aulas na água para se exercitar com menos impacto nas articulações.</p>
+          <button class="btn btn-primary" data-agendar data-servico="Hidroginástica">Agendar</button>
+        </div>
+      </div>
+
+      <div class="service-card" data-categories="agua" data-service-id="10">
+        <button class="service-card-toggle" aria-expanded="false">
+          <svg class="service-icon" width="40" height="40" viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true">
+            <path d="M5 20h30M8 25l4-10 4 10 4-10 4 10 4-10 4 10"/>
+          </svg>
+          <h3 class="service-title">Natação</h3>
+          <p class="service-tagline">Nade com orientação</p>
+        </button>
+        <div class="service-details">
+          <p class="service-description">Aulas para aprender, melhorar a técnica e se movimentar na água.</p>
+          <button class="btn btn-primary" data-agendar data-servico="Natação">Agendar</button>
+        </div>
+      </div>
+
+      <div class="service-card" data-categories="mente" data-service-id="11">
+        <button class="service-card-toggle" aria-expanded="false">
+          <svg class="service-icon" width="40" height="40" viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true">
+            <circle cx="20" cy="20" r="12"/>
+            <path d="M20 14v6l4 4"/>
+          </svg>
+          <h3 class="service-title">Psicologia</h3>
+          <p class="service-tagline">Um espaço para cuidar da mente</p>
+        </button>
+        <div class="service-details">
+          <p class="service-description">Atendimento psicológico com acolhimento, para adultos e crianças.</p>
+          <button class="btn btn-primary" data-agendar data-servico="Psicologia">Agendar</button>
+        </div>
+      </div>
+
+      <div class="service-card" data-categories="mente" data-service-id="12">
+        <button class="service-card-toggle" aria-expanded="false">
+          <svg class="service-icon" width="40" height="40" viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true">
+            <path d="M8 12h24M8 20h24M8 28h16"/>
+            <circle cx="30" cy="28" r="4"/>
+          </svg>
+          <h3 class="service-title">Psicopedagogia</h3>
+          <p class="service-tagline">Aprender fica mais fácil</p>
+        </button>
+        <div class="service-details">
+          <p class="service-description">Identifica o que está dificultando o aprendizado e ajuda a criança a aprender com mais confiança.</p>
+          <button class="btn btn-primary" data-agendar data-servico="Psicopedagogia">Agendar</button>
+        </div>
+      </div>
+
+      <div class="service-card" data-categories="mente" data-service-id="13">
+        <button class="service-card-toggle" aria-expanded="false">
+          <svg class="service-icon" width="40" height="40" viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true">
+            <path d="M20 8c-6.6 0-12 5.4-12 12 0 3 1.1 5.8 3 8l9 9 9-9c1.9-2.2 3-5 3-8 0-6.6-5.4-12-12-12z"/>
+            <circle cx="20" cy="18" r="4"/>
+          </svg>
+          <h3 class="service-title">Neuropsicopedagogia</h3>
+          <p class="service-tagline">Entendendo como o cérebro aprende</p>
+        </button>
+        <div class="service-details">
+          <p class="service-description">Avaliação e acompanhamento das dificuldades de aprendizagem, atenção e desenvolvimento.</p>
+          <button class="btn btn-primary" data-agendar data-servico="Neuropsicopedagogia">Agendar</button>
+        </div>
+      </div>
+
+      <div class="service-card" data-categories="mente criancas" data-service-id="14">
+        <button class="service-card-toggle" aria-expanded="false">
+          <svg class="service-icon" width="40" height="40" viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true">
+            <path d="M15 15l5 5 10-10"/>
+            <rect x="5" y="10" width="30" height="20" rx="3"/>
+          </svg>
+          <h3 class="service-title">Terapeuta CME</h3>
+          <p class="service-tagline">Desenvolvimento motor infantil</p>
+        </button>
+        <div class="service-details">
+          <p class="service-description">Descubra detalhes que fazem toda a diferença no desenvolvimento motor da criança.</p>
+          <button class="btn btn-primary" data-agendar data-servico="Terapeuta CME">Agendar</button>
+        </div>
+      </div>
+
+      <div class="service-card" data-categories="nutricao" data-service-id="15">
+        <button class="service-card-toggle" aria-expanded="false">
+          <svg class="service-icon" width="40" height="40" viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true">
+            <path d="M10 15c0-3.3 2.7-6 6-6h8c3.3 0 6 2.7 6 6v0c0 3.3-2.7 6-6 6h-8c-3.3 0-6-2.7-6-6v0z"/>
+            <path d="M20 21v10"/>
+          </svg>
+          <h3 class="service-title">Nutrição</h3>
+          <p class="service-tagline">Comer bem, viver melhor</p>
+        </button>
+        <div class="service-details">
+          <p class="service-description">Avaliação nutricional completa, plano alimentar individual e acompanhamento contínuo.</p>
+          <button class="btn btn-primary" data-agendar data-servico="Nutrição">Agendar</button>
+        </div>
+      </div>
+
+      <div class="service-card" data-categories="estetica-tab" data-service-id="16">
+        <button class="service-card-toggle" aria-expanded="false">
+          <svg class="service-icon" width="40" height="40" viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true">
+            <circle cx="20" cy="15" r="8"/>
+            <path d="M12 35c0-4.4 3.6-8 8-8s8 3.6 8 8"/>
+          </svg>
+          <h3 class="service-title">Estética</h3>
+          <p class="service-tagline">Cuidado por dentro e por fora</p>
+        </button>
+        <div class="service-details">
+          <p class="service-description">Botox, limpeza de pele, depilação a laser e outros procedimentos.</p>
+          <button class="btn btn-primary" data-agendar data-servico="Estética">Agendar</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="services-toggle">
+      <button class="btn btn-secondary" id="services-toggle-btn">Ver todos os serviços (16)</button>
+    </div>
+  </div>
+</section>
+
+<section class="water-section section">
+  <div class="container">
+    <div class="water-card">
+      <div class="water-wave" aria-hidden="true">
+        <svg viewBox="0 0 1200 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M0 60 Q150 30 300 60 T600 60 T900 60 T1200 60 L1200 120 L0 120 Z" fill="#8FB5A0" opacity="0.15">
+            <animate attributeName="d" dur="4s" repeatCount="indefinite" values="M0 60 Q150 30 300 60 T600 60 T900 60 T1200 60 L1200 120 L0 120 Z; M0 60 Q150 90 300 60 T600 60 T900 60 T1200 60 L1200 120 L0 120 Z; M0 60 Q150 30 300 60 T600 60 T900 60 T1200 60 L1200 120 L0 120 Z"/>
+          </path>
+        </svg>
+      </div>
+      <div class="water-content">
+        <h2>Fisioterapia e exercícios na água</h2>
+        <p>A água deixa o corpo mais leve e ajuda você a se mover com menos impacto. Na Alcançar você encontra hidroterapia, hidroginástica e natação.</p>
+        <button class="btn btn-primary" data-agendar data-servico="atividades na água">Agendar</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="convenio section" id="convenio">
+  <div class="container">
+    <h2 class="section-title">Atendemos Unimed Três Vales</h2>
+    <div class="convenio-content">
+      <div class="convenio-logo-wrapper">
+        <img src="/img/unimed-tres-vales.jpeg" alt="Unimed Três Vales" class="convenio-logo" width="280" height="auto" loading="lazy">
+      </div>
+      <div class="convenio-text">
+        <p>Use o seu plano para cuidar da saúde. Fale com a gente e confirme a cobertura do seu atendimento.</p>
+        <button class="btn btn-primary" data-agendar data-servico="confirmar cobertura do plano Unimed Três Vales">Confirme seu plano</button>
+        <p class="convenio-note">A cobertura pode variar conforme o seu plano.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="estetica section" id="estetica">
+  <div class="container">
+    <h2 class="section-title">Estética</h2>
+    <p class="section-subtitle">Cuidados profissionais para a sua pele.</p>
+
+    <div class="estetica-grid">
+      <div class="estetica-card">
+        <svg class="estetica-icon" width="48" height="48" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true">
+          <circle cx="24" cy="18" r="10"/>
+          <path d="M16 35c0-4.4 3.6-8 8-8s8 3.6 8 8"/>
+        </svg>
+        <h3>Botox</h3>
+        <p>Tratamento de linhas e expressões com aplicação segura.</p>
+        <button class="btn btn-primary" data-agendar data-servico="Botox">Agendar</button>
+      </div>
+
+      <div class="estetica-card">
+        <svg class="estetica-icon" width="48" height="48" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true">
+          <circle cx="24" cy="24" r="16"/>
+          <path d="M24 12v6M24 30v6M36 24h-6M18 24h-6"/>
+        </svg>
+        <h3>Limpeza de pele</h3>
+        <p>Higienização e cuidados para uma pele saudável.</p>
+        <button class="btn btn-primary" data-agendar data-servico="Limpeza de pele">Agendar</button>
+      </div>
+
+      <div class="estetica-card">
+        <svg class="estetica-icon" width="48" height="48" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true">
+          <path d="M12 24l6-6 6 6 6-6 6 6"/>
+          <rect x="10" y="14" width="28" height="20" rx="2"/>
+        </svg>
+        <h3>Depilação a laser</h3>
+        <p>Remoção duradoura e confortável, com tecnologia atualizada.</p>
+        <button class="btn btn-primary" data-agendar data-servico="Depilação a laser">Agendar</button>
+      </div>
+    </div>
+
+    <div class="estetica-footer">
+      <p>E outros procedimentos. Fale conosco.</p>
+      <button class="btn btn-secondary" data-agendar data-servico="avaliação estética">Agendar avaliação estética</button>
+    </div>
+  </div>
+</section>
+
+<section class="how-it-works section">
+  <div class="container">
+    <h2 class="section-title">Como funciona o atendimento</h2>
+
+    <div class="steps">
+      <div class="step">
+        <div class="step-number">1</div>
+        <svg class="step-icon" width="48" height="48" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true">
+          <rect x="8" y="12" width="32" height="28" rx="6"/>
+          <path d="M18 20l6 4 6-4"/>
+        </svg>
+        <h3>Fale com a gente pelo WhatsApp</h3>
+        <p>Escolha a unidade e envie sua mensagem.</p>
+      </div>
+
+      <div class="step">
+        <div class="step-number">2</div>
+        <svg class="step-icon" width="48" height="48" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true">
+          <rect x="10" y="8" width="28" height="32" rx="2"/>
+          <path d="M18 18h12M18 26h12"/>
+        </svg>
+        <h3>Faça sua avaliação</h3>
+        <p>O profissional avalia seu caso e monta o plano.</p>
+      </div>
+
+      <div class="step">
+        <div class="step-number">3</div>
+        <svg class="step-icon" width="48" height="48" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true">
+          <path d="M24 12l6 12 12 2-9 8 2 12-11-6-11 6 2-12-9-8 12-2z"/>
+        </svg>
+        <h3>Comece seu tratamento</h3>
+        <p>Cuidado contínuo até você alcançar seus objetivos.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="equipe section" id="equipe">
+  <div class="container">
+    <!-- CONFIRMAR NOMES ANTES DE PUBLICAR -->
+    <h2 class="section-title">Nossa equipe</h2>
+
+    <div class="equipe-carousel">
+      <div class="equipe-card">
+        <div class="equipe-photo">
+          <!-- TROCAR: /img/equipe-jamara.jpg -->
+          <div class="placeholder-image" style="background:linear-gradient(135deg, #8FB5A0, #EBD9A9); border-radius:50%; width:100%; aspect-ratio:1/1;"></div>
+        </div>
+        <h3>Jamara Ferraz</h3>
+        <p>Fisioterapia e pilates</p>
+      </div>
+
+      <div class="equipe-card">
+        <div class="equipe-photo">
+          <!-- TROCAR: /img/equipe-sinnara.jpg -->
+          <div class="placeholder-image" style="background:linear-gradient(135deg, #EBD9A9, #8FB5A0); border-radius:50%; width:100%; aspect-ratio:1/1;"></div>
+        </div>
+        <h3>Sinnara Oliveira</h3>
+        <p>Nutrição</p>
+      </div>
+
+      <div class="equipe-card">
+        <div class="equipe-photo">
+          <!-- TROCAR: /img/equipe-thaluany.jpg -->
+          <div class="placeholder-image" style="background:linear-gradient(135deg, #8FB5A0, #EBD9A9); border-radius:50%; width:100%; aspect-ratio:1/1;"></div>
+        </div>
+        <h3>Dra. Thaluany Felix</h3>
+        <p>Estética e depilação a laser</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="vidafit section">
+  <div class="container">
+    <div class="vidafit-content">
+      <h2>Novidade em Jacinto: VidaFit Culinária Saudável</h2>
+      <p>Na unidade de Jacinto você encontra refeições saudáveis congeladas da VidaFit, com sabor e praticidade para o seu dia a dia. Pacientes e parceiros da clínica têm desconto de até 10%.</p>
+      <blockquote class="vidafit-quote">"Saúde, bem-estar e alimentação saudável caminham juntos!"</blockquote>
+      <a href="https://www.instagram.com/vidafit.almenara" target="_blank" rel="noopener" class="btn btn-primary">Conhecer a VidaFit <span aria-hidden="true">→</span></a>
+
+      <div class="vidafit-badge">
+        <svg width="32" height="32" viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+          <path d="M16 3l4 8 9 1-6.5 6.5L24 28l-8-4-8 4 1.5-9.5L3 12l9-1z"/>
+        </svg>
+        <span>@vidafit.almenara</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="unidades section" id="unidades">
+  <div class="container">
+    <h2 class="section-title">Onde nos encontrar</h2>
+
+    <div class="unidades-tabs" role="tablist" aria-label="Unidades">
+      <button class="unidade-tab active" role="tab" aria-selected="true" aria-controls="unidade-almenara" data-unidade="almenara">Almenara</button>
+      <button class="unidade-tab" role="tab" aria-selected="false" aria-controls="unidade-jacinto" data-unidade="jacinto">Jacinto</button>
+    </div>
+
+    <div class="unidade-panel" id="unidade-almenara" role="tabpanel" aria-labelledby="tab-almenara">
+      <h3>Almenara</h3>
+      <p class="unidade-address">Rua Henrique Heitman, 288 – São Judas – Almenara/MG</p>
+      <p class="unidade-hours">Segunda a sexta, das 7h às 21h</p>
+      <div class="unidade-status" id="status-almenara">Aberto agora</div>
+
+      <div class="unidade-actions">
+        <button class="btn btn-primary" data-agendar data-unidade="almenara">Agendar nesta unidade</button>
+        <a href="https://www.google.com/maps?q=Rua+Henrique+Heitman,+288+-+São+Judas+-+Almenara/MG" target="_blank" rel="noopener" class="btn btn-secondary">Como chegar</a>
+      </div>
+
+      <iframe src="https://www.google.com/maps?q=Rua+Henrique+Heitman,+288+-+São+Judas+-+Almenara/MG&output=embed" width="100%" height="260" style="border:0; border-radius:20px;" loading="lazy" title="Mapa da unidade de Almenara"></iframe>
+    </div>
+
+    <div class="unidade-panel" id="unidade-jacinto" role="tabpanel" aria-labelledby="tab-jacinto" hidden>
+      <h3>Jacinto</h3>
+      <p class="unidade-address">Rua Clarindo Barbosa, 92 – Centro – Jacinto/MG</p>
+      <p class="unidade-hours">Segunda a sexta, das 7h às 21h</p>
+      <div class="unidade-status" id="status-jacinto">Aberto agora</div>
+
+      <div class="unidade-actions">
+        <button class="btn btn-primary" data-agendar data-unidade="jacinto">Agendar nesta unidade</button>
+        <a href="https://www.google.com/maps?q=Rua+Clarindo+Barbosa,+92+-+Centro+-+Jacinto/MG" target="_blank" rel="noopener" class="btn btn-secondary">Como chegar</a>
+      </div>
+
+      <iframe src="https://www.google.com/maps?q=Rua+Clarindo+Barbosa,+92+-+Centro+-+Jacinto/MG&output=embed" width="100%" height="260" style="border:0; border-radius:20px;" loading="lazy" title="Mapa da unidade de Jacinto"></iframe>
+    </div>
+  </div>
+</section>
+
+<section class="instagram section">
+  <div class="container">
+    <h2 class="section-title">Acompanhe o dia a dia da clínica</h2>
+    <p class="section-subtitle">Dicas, novidades e bastidores no nosso Instagram.</p>
+
+    <div class="instagram-grid">
+      <div class="instagram-placeholder">
+        <!-- TROCAR: /img/galeria-1.jpg -->
+        <svg width="48" height="48" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+          <rect x="6" y="6" width="36" height="36" rx="4"/>
+          <circle cx="24" cy="24" r="8"/>
+        </svg>
+      </div>
+      <div class="instagram-placeholder">
+        <!-- TROCAR: /img/galeria-2.jpg -->
+        <svg width="48" height="48" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+          <rect x="6" y="6" width="36" height="36" rx="4"/>
+          <circle cx="24" cy="24" r="8"/>
+        </svg>
+      </div>
+      <div class="instagram-placeholder">
+        <!-- TROCAR: /img/galeria-3.jpg -->
+        <svg width="48" height="48" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+          <rect x="6" y="6" width="36" height="36" rx="4"/>
+          <circle cx="24" cy="24" r="8"/>
+        </svg>
+      </div>
+      <div class="instagram-placeholder">
+        <!-- TROCAR: /img/galeria-4.jpg -->
+        <svg width="48" height="48" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+          <rect x="6" y="6" width="36" height="36" rx="4"/>
+          <circle cx="24" cy="24" r="8"/>
+        </svg>
+      </div>
+    </div>
+
+    <a href="https://www.instagram.com/alcancarfisio" target="_blank" rel="noopener" class="btn btn-primary">Seguir @alcancarfisio <span aria-hidden="true">→</span></a>
+  </div>
+</section>
+
+<section class="faq section">
+  <div class="container">
+    <h2 class="section-title">Perguntas frequentes</h2>
+
+    <div class="faq-list">
+      <details class="faq-item">
+        <summary>Como agendo minha consulta?</summary>
+        <div class="faq-answer">
+          <p>Você pode agendar pelo WhatsApp da unidade de sua preferência. Clique em qualquer botão "Agendar" no site e escolha Almenara ou Jacinto.</p>
+          <button class="btn btn-primary" data-agendar>Agendar pelo WhatsApp</button>
+        </div>
+      </details>
+
+      <details class="faq-item">
+        <summary>Quais são os horários de atendimento?</summary>
+        <div class="faq-answer">
+          <p>Atendemos de segunda a sexta-feira, das 7h às 21h. Sábado e domingo fechado.</p>
+        </div>
+      </details>
+
+      <details class="faq-item">
+        <summary>Vocês atendem Unimed Três Vales?</summary>
+        <div class="faq-answer">
+          <p>Sim! A cobertura pode variar conforme o seu plano. Fale com a gente pelo WhatsApp para confirmar.</p>
+          <button class="btn btn-primary" data-agendar data-servico="confirmar cobertura do plano Unimed Três Vales">Confirmar cobertura</button>
+        </div>
+      </details>
+
+      <details class="faq-item">
+        <summary>Atendem crianças e idosos?</summary>
+        <div class="faq-answer">
+          <p>Sim! Atendemos toda a família. Temos fisioterapia infantil, terapeuta CME, psicologia infantil e fisioterapia para idosos.</p>
+        </div>
+      </details>
+
+      <details class="faq-item">
+        <summary>Os serviços são os mesmos nas duas unidades?</summary>
+        <div class="faq-answer">
+          <p>Sim! Todos os serviços estão disponíveis em Almenara e Jacinto.</p>
+        </div>
+      </details>
+
+      <details class="faq-item">
+        <summary>Preciso de pedido médico?</summary>
+        <div class="faq-answer">
+          <p>Fale com a gente pelo WhatsApp. Um profissional orienta você.</p>
+          <button class="btn btn-primary" data-agendar>Falar com um profissional</button>
+        </div>
+      </details>
+    </div>
+  </div>
+</section>
+
+<section class="form-section section" id="contato">
+  <div class="container">
+    <div class="form-card">
+      <h2>Prefere que a gente te chame?</h2>
+      <p class="form-subtitle">Preencha e a gente envia pelo WhatsApp da unidade escolhida.</p>
+
+      <form id="contact-form" novalidate>
+        <div class="form-group">
+          <label for="nome">Seu nome *</label>
+          <input type="text" id="nome" name="nome" required placeholder="Digite seu nome">
+          <span class="form-error" id="nome-error"></span>
+        </div>
+
+        <div class="form-group">
+          <label for="unidade">Unidade *</label>
+          <select id="unidade" name="unidade" required>
+            <option value="">Escolha a unidade</option>
+            <option value="Almenara">Almenara</option>
+            <option value="Jacinto">Jacinto</option>
+          </select>
+          <span class="form-error" id="unidade-error"></span>
+        </div>
+
+        <div class="form-group">
+          <label for="servico">O que você procura? *</label>
+          <select id="servico" name="servico" required>
+            <option value="">Escolha um serviço</option>
+            <option value="Fisioterapia geral">Fisioterapia geral</option>
+            <option value="Fisioterapia adulto">Fisioterapia adulto</option>
+            <option value="Fisioterapia infantil">Fisioterapia infantil</option>
+            <option value="Fisioterapia para idosos">Fisioterapia para idosos</option>
+            <option value="Fisioterapia pélvica">Fisioterapia pélvica</option>
+            <option value="Ortopedia">Ortopedia</option>
+            <option value="Pilates">Pilates</option>
+            <option value="Hidroterapia">Hidroterapia</option>
+            <option value="Hidroginástica">Hidroginástica</option>
+            <option value="Natação">Natação</option>
+            <option value="Psicologia">Psicologia</option>
+            <option value="Psicopedagogia">Psicopedagogia</option>
+            <option value="Neuropsicopedagogia">Neuropsicopedagogia</option>
+            <option value="Terapeuta CME">Terapeuta CME</option>
+            <option value="Nutrição">Nutrição</option>
+            <option value="Estética">Estética</option>
+          </select>
+          <span class="form-error" id="servico-error"></span>
+        </div>
+
+        <div class="form-group">
+          <label for="mensagem">Mensagem (opcional)</label>
+          <textarea id="mensagem" name="mensagem" rows="4" placeholder="Conte mais sobre o que você precisa"></textarea>
+        </div>
+
+        <button type="submit" class="btn btn-primary btn-block">Enviar pelo WhatsApp</button>
+      </form>
+    </div>
+  </div>
+</section>
+
+<section class="cta-final section">
+  <div class="container">
+    <h2 class="section-title">Pronto para cuidar de você?</h2>
+    <p class="section-subtitle">Fale com a gente agora e agende o seu atendimento.</p>
+    <button class="btn btn-primary" data-agendar>Agende a sua consulta aqui <span aria-hidden="true">→</span></button>
+  </div>
+</section>
+
+</main>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer-main">
+      <div class="footer-brand">
+        <img src="/img/logo.jpeg" alt="ALCANÇAR Logo" class="footer-logo" width="72" height="72">
+        <h3>ALCANÇAR</h3>
+        <p>Clínica de Fisioterapia Integrada</p>
+        <p class="footer-motto">Lema: Cuidar • Acolher • Transformar</p>
+      </div>
+
+      <nav class="footer-links" aria-label="Links rápidos">
+        <h4>Links rápidos</h4>
+        <a href="#inicio">Início</a>
+        <a href="#sobre">Sobre</a>
+        <a href="#servicos">Serviços</a>
+        <a href="#convenio">Convênio</a>
+        <a href="#estetica">Estética</a>
+        <a href="#equipe">Equipe</a>
+        <a href="#unidades">Unidades</a>
+        <a href="#contato">Contato</a>
+      </nav>
+
+      <div class="footer-contact">
+        <h4>Unidades</h4>
+        <div class="footer-unidade">
+          <strong>Almenara</strong>
+          <p>Rua Henrique Heitman, 288 – São Judas</p>
+        </div>
+        <div class="footer-unidade">
+          <strong>Jacinto</strong>
+          <p>Rua Clarindo Barbosa, 92 – Centro</p>
+        </div>
+        <p><strong>Horário:</strong> Segunda a sexta, 7h às 21h</p>
+      </div>
+
+      <div class="footer-social">
+        <h4>Siga-nos</h4>
+        <a href="https://www.instagram.com/alcancarfisio" target="_blank" rel="noopener" class="footer-instagram">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+            <rect x="2" y="2" width="20" height="20" rx="5"/>
+            <circle cx="12" cy="12" r="4" fill="none" stroke="#F5EFE3" stroke-width="2"/>
+            <circle cx="18" cy="6" r="1.5" fill="#F5EFE3"/>
+          </svg>
+          @alcancarfisio
+        </a>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>&copy; 2026 Alcançar – Clínica de Fisioterapia Integrada</p>
+    </div>
+  </div>
+</footer>
+
+<div id="modal-unidade" class="modal" role="dialog" aria-modal="true" aria-labelledby="modal-titulo" hidden>
+  <div class="modal-overlay"></div>
+  <div class="modal-panel">
+    <button class="modal-close" data-close aria-label="Fechar">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+        <line x1="18" y1="6" x2="6" y2="18"/>
+        <line x1="6" y1="6" x2="18" y2="18"/>
+      </svg>
+    </button>
+
+    <h2 id="modal-titulo">Agende a sua consulta aqui</h2>
+    <p class="modal-subtitle">Escolha a unidade. O WhatsApp abre com a mensagem pronta.</p>
+
+    <div class="modal-units">
+      <a href="#" class="modal-unit-card" id="modal-unit-almenara" target="_blank" rel="noopener">
+        <h3>Almenara</h3>
+        <p>Rua Henrique Heitman, 288</p>
+      </a>
+
+      <a href="#" class="modal-unit-card" id="modal-unit-jacinto" target="_blank" rel="noopener">
+        <h3>Jacinto</h3>
+        <p>Rua Clarindo Barbosa, 92</p>
+      </a>
+    </div>
+
+    <p class="modal-note">Rápido, seguro e sem compromisso</p>
+  </div>
+</div>
+
+<button class="btn-float" id="btn-float" aria-label="Falar pelo WhatsApp">
+  <svg width="28" height="28" viewBox="0 0 28 28" fill="currentColor">
+    <path d="M14 0C6.3 0 0 6.3 0 14c0 2.4.6 4.8 1.8 6.9L0 28l7.3-1.9C9.4 27.3 11.7 28 14 28c7.7 0 14-6.3 14-14S21.7 0 14 0zm6.5 19.7c-.3.8-1.5 1.5-2.4 1.7-.6.1-1.4.2-4.1-.9-3.4-1.3-5.6-4.8-5.8-5-.2-.2-1.5-2-1.5-3.8s1-2.7 1.3-3.1c.3-.4.7-.5.9-.5h.7c.2 0 .5 0 .7.5.2.6.8 2 .9 2.1.1.1.1.3 0 .5-.1.2-.2.3-.3.5l-.5.5c-.2.2-.4.4-.2.8.2.4 1 1.6 2.2 2.6 1.5 1.3 2.8 1.7 3.2 1.9.4.2.6.1.8-.1.2-.2 1-1.1 1.2-1.5.2-.4.5-.3.8-.2.3.1 2.1 1 2.5 1.2.4.2.6.3.7.5.1.2.1.9-.2 1.7z"/>
+  </svg>
+</button>
+
+<div class="bottom-bar" id="bottom-bar">
+  <button class="bottom-bar-btn" data-agendar>
+    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true">
+      <rect x="3" y="4" width="18" height="18" rx="2"/>
+      <line x1="16" y1="2" x2="16" y2="6"/>
+      <line x1="8" y1="2" x2="8" y2="6"/>
+      <line x1="3" y1="10" x2="21" y2="10"/>
+    </svg>
+    Agendar
+  </button>
+  <button class="bottom-bar-btn" id="btn-call">
+    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true">
+      <path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/>
+    </svg>
+    Ligar
+  </button>
+</div>
+
+<script src="/main.js"></script>
+</body>
+</html>
