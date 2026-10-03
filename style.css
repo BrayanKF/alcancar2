@@ -162,6 +162,14 @@ p {
   background: var(--creme);
   color: var(--verde-escuro);
 }
+.btn-third {
+  background: var(--verde-escuro);
+  color: var(--branco);
+}
+
+.btn-third:hover {
+  background: #074201;
+}
 
 .btn-primary:hover {
   background: #d9c799;
@@ -1234,7 +1242,7 @@ p {
   gap: 12px;
   margin-top: 24px;
   padding: 16px 24px;
-  background: var(--verde-profundo);
+  background: var(bege);
   color: var(--branco);
   border-radius: var(--radius-md);
   font-weight: 500;
