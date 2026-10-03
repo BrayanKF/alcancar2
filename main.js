@@ -157,7 +157,7 @@ function initHeroWord() {
   const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
   if (prefersReducedMotion) return;
 
-  const words = ['movimento', 'bem-estar', 'futuro', 'família'];
+  const words = ['movimento', 'bem-estar', 'futuro', 'dia a dia'];
   let currentIndex = 0;
 
   // Don't start if there's no JS
